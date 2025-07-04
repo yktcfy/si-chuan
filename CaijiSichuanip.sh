@@ -123,7 +123,7 @@ ip48=$(awk 'NR==48{print $2}' $result_ip)
 ip49=$(awk 'NR==49{print $2}' $result_ip)
 ip50=$(awk 'NR==50{print $2}' $result_ip)
 rm -f speedtest_${city}_$time.log $result_ip    
-# 用 30 个最快 ip 生成对应城市的 txt 文件
+# 用 50 个最快 ip 生成对应城市的 txt 文件
 program=template/template_${city}.txt
 sed "s/ipipip/$ip1/g" $program > tmp_1.txt
 sed "s/ipipip/$ip2/g" $program > tmp_2.txt
