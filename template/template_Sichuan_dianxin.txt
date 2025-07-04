@@ -156,3 +156,7 @@ http://ipipip/rtp/239.93.0.142:5140
 http://ipipip/rtp/239.93.0.162:2192
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="卫视高清",凤凰资讯
 http://ipipip/rtp/239.93.0.118:2191
+#EXTINF:-1 tvg-id="1" tvg-name="中国教育1台" tvg-logo="https://live.fanmingming.com/tv/中国教育1台.png" group-title="卫视高清",中国教育1台
+http://ipipip/rtp/239.93.1.111:5140
+#EXTINF:-1 tvg-id="1" tvg-name="中国教育4台" tvg-logo="https://live.fanmingming.com/tv/中国教育4台.png" group-title="卫视高清",中国教育4台
+http://ipipip/rtp/239.93.1.93:5140
