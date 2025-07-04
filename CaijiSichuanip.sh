@@ -102,6 +102,26 @@ ip27=$(awk 'NR==27{print $2}' $result_ip)
 ip28=$(awk 'NR==28{print $2}' $result_ip)
 ip29=$(awk 'NR==29{print $2}' $result_ip)
 ip30=$(awk 'NR==30{print $2}' $result_ip)
+ip31=$(awk 'NR==31{print $2}' $result_ip)
+ip32=$(awk 'NR==32{print $2}' $result_ip)
+ip33=$(awk 'NR==33{print $2}' $result_ip)
+ip34=$(awk 'NR==34{print $2}' $result_ip)
+ip35=$(awk 'NR==35{print $2}' $result_ip)
+ip36=$(awk 'NR==36{print $2}' $result_ip)
+ip37=$(awk 'NR==37{print $2}' $result_ip)
+ip38=$(awk 'NR==38{print $2}' $result_ip)
+ip39=$(awk 'NR==39{print $2}' $result_ip)
+ip40=$(awk 'NR==40{print $2}' $result_ip)
+ip41=$(awk 'NR==41{print $2}' $result_ip)
+ip42=$(awk 'NR==42{print $2}' $result_ip)
+ip43=$(awk 'NR==43{print $2}' $result_ip)
+ip44=$(awk 'NR==44{print $2}' $result_ip)
+ip45=$(awk 'NR==45{print $2}' $result_ip)
+ip46=$(awk 'NR==46{print $2}' $result_ip)
+ip47=$(awk 'NR==47{print $2}' $result_ip)
+ip48=$(awk 'NR==48{print $2}' $result_ip)
+ip49=$(awk 'NR==49{print $2}' $result_ip)
+ip50=$(awk 'NR==50{print $2}' $result_ip)
 rm -f speedtest_${city}_$time.log $result_ip    
 # 用 30 个最快 ip 生成对应城市的 txt 文件
 program=template/template_${city}.txt
@@ -135,6 +155,26 @@ sed "s/ipipip/$ip27/g" $program > tmp_27.txt
 sed "s/ipipip/$ip28/g" $program > tmp_28.txt
 sed "s/ipipip/$ip29/g" $program > tmp_29.txt
 sed "s/ipipip/$ip30/g" $program > tmp_30.txt
+sed "s/ipipip/$ip31/g" $program > tmp_31.txt
+sed "s/ipipip/$ip32/g" $program > tmp_32.txt
+sed "s/ipipip/$ip33/g" $program > tmp_33.txt
+sed "s/ipipip/$ip34/g" $program > tmp_34.txt
+sed "s/ipipip/$ip35/g" $program > tmp_35.txt
+sed "s/ipipip/$ip36/g" $program > tmp_36.txt
+sed "s/ipipip/$ip37/g" $program > tmp_37.txt
+sed "s/ipipip/$ip38/g" $program > tmp_38.txt
+sed "s/ipipip/$ip39/g" $program > tmp_39.txt
+sed "s/ipipip/$ip40/g" $program > tmp_40.txt
+sed "s/ipipip/$ip41/g" $program > tmp_41.txt
+sed "s/ipipip/$ip42/g" $program > tmp_42.txt
+sed "s/ipipip/$ip43/g" $program > tmp_43.txt
+sed "s/ipipip/$ip44/g" $program > tmp_44.txt
+sed "s/ipipip/$ip45/g" $program > tmp_45.txt
+sed "s/ipipip/$ip46/g" $program > tmp_46.txt
+sed "s/ipipip/$ip47/g" $program > tmp_47.txt
+sed "s/ipipip/$ip48/g" $program > tmp_48.txt
+sed "s/ipipip/$ip49/g" $program > tmp_49.txt
+sed "s/ipipip/$ip50/g" $program > tmp_50.txt
 cat tmp_1.txt >> tmp_all.txt
 cat tmp_2.txt >> tmp_all.txt
 cat tmp_3.txt >> tmp_all.txt
@@ -165,7 +205,27 @@ cat tmp_27.txt >> tmp_all.txt
 cat tmp_28.txt >> tmp_all.txt
 cat tmp_29.txt >> tmp_all.txt
 cat tmp_30.txt >> tmp_all.txt
+cat tmp_31.txt >> tmp_all.txt
+cat tmp_32.txt >> tmp_all.txt
+cat tmp_33.txt >> tmp_all.txt
+cat tmp_34.txt >> tmp_all.txt
+cat tmp_35.txt >> tmp_all.txt
+cat tmp_36.txt >> tmp_all.txt
+cat tmp_37.txt >> tmp_all.txt
+cat tmp_38.txt >> tmp_all.txt
+cat tmp_39.txt >> tmp_all.txt
+cat tmp_40.txt >> tmp_all.txt
+cat tmp_41.txt >> tmp_all.txt
+cat tmp_42.txt >> tmp_all.txt
+cat tmp_43.txt >> tmp_all.txt
+cat tmp_44.txt >> tmp_all.txt
+cat tmp_45.txt >> tmp_all.txt
+cat tmp_46.txt >> tmp_all.txt
+cat tmp_47.txt >> tmp_all.txt
+cat tmp_48.txt >> tmp_all.txt
+cat tmp_49.txt >> tmp_all.txt
+cat tmp_50.txt >> tmp_all.txt
 grep -vE '/{3}' tmp_all.txt > "txt/${city}.txt"
-rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_4.txt tmp_5.txt tmp_6.txt tmp_7.txt tmp_8.txt tmp_9.txt tmp_10.txt tmp_11.txt tmp_12.txt tmp_13.txt tmp_14.txt tmp_15.txt tmp_16.txt tmp_17.txt tmp_18.txt tmp_19.txt tmp_20.txt tmp_21.txt tmp_22.txt tmp_23.txt tmp_24.txt tmp_25.txt tmp_26.txt tmp_27.txt tmp_28.txt tmp_29.txt tmp_30.txt tmp_all.txt
+rm -f tmp_1.txt tmp_2.txt tmp_3.txt tmp_4.txt tmp_5.txt tmp_6.txt tmp_7.txt tmp_8.txt tmp_9.txt tmp_10.txt tmp_11.txt tmp_12.txt tmp_13.txt tmp_14.txt tmp_15.txt tmp_16.txt tmp_17.txt tmp_18.txt tmp_19.txt tmp_20.txt tmp_21.txt tmp_22.txt tmp_23.txt tmp_24.txt tmp_25.txt tmp_26.txt tmp_27.txt tmp_28.txt tmp_29.txt tmp_30.txt tmp_31.txt tmp_32.txt tmp_33.txt tmp_34.txt tmp_35.txt tmp_36.txt tmp_37.txt tmp_38.txt tmp_39.txt tmp_40.txt tmp_41.txt tmp_42.txt tmp_43.txt tmp_44.txt tmp_45.txt tmp_46.txt tmp_47.txt tmp_48.txt tmp_49.txt tmp_50.txt tmp_all.txt
 echo "${city} 测试完成，生成可用文件：'txt/${city}.txt'"
 #--------合并所有城市的txt文件---------
