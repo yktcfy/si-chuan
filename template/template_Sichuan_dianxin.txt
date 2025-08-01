@@ -98,6 +98,12 @@ http://ipipip/rtp/239.93.0.248:5140
 http://ipipip/rtp/239.93.0.143:5140
 #EXTINF:-1 tvg-id="1" tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="卫视高清",浙江卫视
 http://ipipip/rtp/239.93.0.124:5140
+#EXTINF:-1 tvg-id="1" tvg-name="西藏卫视" tvg-logo="https://live.fanmingming.com/tv/西藏卫视.png" group-title="卫视高清",西藏卫视
+http://ipipip/rtp/239.94.0.97:5140
+#EXTINF:-1 tvg-id="1" tvg-name="新疆卫视" tvg-logo="https://live.fanmingming.com/tv/新疆卫视.png" group-title="卫视高清",新疆卫视
+http://ipipip/rtp/239.93.0.82:5140
+#EXTINF:-1 tvg-id="1" tvg-name="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png" group-title="卫视高清",兵团卫视
+http://ipipip/rtp/239.93.42.43:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地高清",绚影4K
 http://ipipip/rtp/239.93.42.33:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="本地高清",中录动漫4K
